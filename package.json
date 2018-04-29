@@ -1,0 +1,22 @@
+{
+  "name": "@fiuzagr/logger",
+  "version": "1.0.0",
+  "description": "Simple logger.",
+  "author": "fiuzagr",
+  "license": "UNLICENSE",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.10.0 <9",
+    "npm": ">=5.6.0 <6"
+  },
+  "scripts": {
+    "build": "boot build umd"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@fiuzagr/boot": "github:fiuzagr/boot#master",
+    "lodash": "^4.17.10"
+  }
+}
