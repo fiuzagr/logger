@@ -27,6 +27,13 @@ const createLogger = ({ logLevel, debugMode }) => {
   logLevel = toLower(logLevel || (debugMode ? 'debug' : 'info'));
 
   const logger = {
+    color: {
+      red,
+      green,
+      yellow,
+      blue
+    },
+
     log: (level, ...args) => {
       args = map(
         args,
